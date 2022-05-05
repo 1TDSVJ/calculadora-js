@@ -28,34 +28,39 @@ for (let input of inputs) {
 }; */
 
 //Atrelando evento ao input do formulário com addEventListenner e adicionando o valor ao campo de resultado
-inputs[0].addEventListener("focus", function () {
-    inputs[0].value = "";
-});
+inputs[0].addEventListener('focus', function () {
+    inputs[0].value = ''
+})
 
-inputs[1].addEventListener("click", function () {
-    inputs[0].value += "";
-    inputs[0].value += ("1");
-});   
+inputs[1].addEventListener('click', function () {
+    let temp = inputs[0].value; 
+    inputs[0].value = ''  
+    inputs[0].value += temp+('1');
+})
 
-inputs[2].addEventListener("click", function () {
-    inputs[0].value += "";
-    inputs[0].value += ("2");
-}); 
+inputs[2].addEventListener('click', function () {
+    let temp = inputs[0].value;
+    inputs[0].value = ''
+    inputs[0].value += temp+('2');
+})  
 
-inputs[3].addEventListener("click", function () {
-    inputs[0].value += "";
-    inputs[0].value += ("3");
-}); 
+inputs[3].addEventListener('click', function () {
+    let temp = inputs[0].value;
+    inputs[0].value = ''
+    inputs[0].value += temp+('3');
+})  
 
-inputs[4].addEventListener("click", function () {
-    inputs[0].value += "";
-    inputs[0].value += ("4");
-});  
+inputs[4].addEventListener('click', function () {
+    let temp = inputs[0].value;
+    inputs[0].value = ''
+    inputs[0].value += temp+('4');
+})  
 
-inputs[5].addEventListener("click", function () {
-    inputs[0].value += "";
-    inputs[0].value += ("5");
-});  
+inputs[5].addEventListener('click', function () {
+    let temp = inputs[0].value;
+    inputs[0].value = ''
+    inputs[0].value += temp+('5');
+})  
 
 
 
