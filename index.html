@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CALC-JS</title>
-</head>
-<body>
-    <h1>MINHA CALCULADORA EM JAVASCRIPT</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/estilo.css">
+        <title>CALC-JS</title>
+        <script src="./js/script.js" defer></script>
 
-    <div>
-        <form action="index.html" method="get">
-            <fieldset>
-                <legend>Calculadora</legend>
-                <input type="text" name="visor" id="visorId" value="0">
-            </fieldset>
-            <fieldset>
-                <div>
-                    <input type="button" name="btn1" id="btn1Id" value="1">
-                    <input type="button" name="btn2" id="btn2Id" value="2">
-                    <input type="button" name="btn3" id="btn3Id" value="3">
-                    <input type="button" name="btn4" id="btn4Id" value="4">
-                    <input type="button" name="btn5" id="btn5Id" value="5">
-                </div>
-                <div>
-                    <input type="button" name="resultado" id="resultadoId" value="=">
-                </div>
-            </fieldset>
-        </form>
-    </div>
+    </head>
+    <body>
+        <h1>MINHA CALCULADORA EM JAVASCRIPT</h1>
 
-</body>
+        <div>
+            <form action="index.html" method="get" id="frmCalc">
+                <fieldset>
+                    <legend>Calculadora</legend>
+                    <input type="text" name="visor" id="visorId" value="0">
+                </fieldset>
+                <fieldset>
+                    <div>
+                        <input type="button" name="btn1" id="btn1Id" value="1">
+                        <input type="button" name="btn2" id="btn2Id" value="2">
+                        <input type="button" name="btn3" id="btn3Id" value="3">
+                        <input type="button" name="btn4" id="btn4Id" value="4">
+                        <input type="button" name="btn5" id="btn5Id" value="5">
+                    </div>
+                    <div>
+                        <input type="button" name="resultado" id="resultadoId" value="=">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+        <h1> TESTE </h1>
+    </body>
 </html>
